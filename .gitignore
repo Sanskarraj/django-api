@@ -1,0 +1,26 @@
+# Ignore database files
+db.sqlite3
+
+# Ignore static and media files (if they are in the same directory as your manage.py)
+/staticfiles/
+/media/
+
+# Ignore virtual environment (if using venv)
+/venv/
+
+# Ignore logs
+/logs/
+
+# Ignore development settings
+/settings_local.py
+
+# Ignore compiled Python files
+__pycache__/
+
+# Ignore local development files
+*.log
+*.pot
+*.pyc
+
+# Ignore environment-specific files
+.env
